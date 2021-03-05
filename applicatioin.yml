@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiels: dev
+  application:
+    name: spring-cloud-dev
+
+---
+spring:
+  profiels: test
+  application:
+    name: spring-cloud-test
